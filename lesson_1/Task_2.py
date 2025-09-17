@@ -1,4 +1,3 @@
-
 import math
 
 a = int(input("Введите первое число: "))

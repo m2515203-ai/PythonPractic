@@ -66,8 +66,9 @@ sr_ar = sum(even_elements) / len(even_elements)
 
 # Среднее геометрическое элементов списка 'c', расположенных на нечетных местах
 from math import prod
+
 odd_elements = c[::2]  # индексы 0, 2, 4...
-sr_geom = prod(odd_elements) ** (1/len(odd_elements))
+sr_geom = prod(odd_elements) ** (1 / len(odd_elements))
 
 # Максимальный и минимальный элементы
 c_max = max(c)

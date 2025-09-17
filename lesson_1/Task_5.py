@@ -1,4 +1,3 @@
-
 a = float(input("Введите a: "))
 b = float(input("Введите b: "))
 m = float(input("Введите m: "))
